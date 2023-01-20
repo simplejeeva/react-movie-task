@@ -1,0 +1,27 @@
+ 
+.poster{
+  width: 100%;
+  object-fit: cover;
+  height: 640px;
+}
+.sub-div{
+  display: flex;
+  justify-content: space-between;
+  
+align-items: center;
+margin: 0%
+}
+.summary{
+  margin: 0%;
+}
+.main{
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+  gap: 16px;
+}
+.rating{
+  margin: 0%;
+}
+.like{
+  margin: 1px;
+}
